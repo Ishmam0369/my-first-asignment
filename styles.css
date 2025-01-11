@@ -1,0 +1,38 @@
+.fira-sans-thin {
+    font-family: "Fira Sans", serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 120px;
+    margin: 0%;
+  }
+  
+  #normal-btn{
+    padding: 8px;
+    border: 1px solid rgb(0, 106, 80);
+border-radius: 8px;
+color: rgb(0, 106, 80);
+  }
+ #sub-writing{
+    font-size: 24px;
+    color: rgba(14, 14, 14, 0.5);
+ } 
+
+ #first{
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+   height: 600px;width:1020px;
+    margin: 120px solid rgb(198, 228, 214);
+    display: flex;}
+ .btn{background-color: rgb(0, 106, 80);
+border-radius: 8px;
+color: rgb(255, 255, 255);}
+.first-3{
+    flex-direction: column;
+    
+}
+#first{display: flex;}
+.inn{background-color: white;}
