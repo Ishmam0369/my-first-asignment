@@ -29,10 +29,31 @@ color: rgb(0, 106, 80);
     display: flex;}
  .btn{background-color: rgb(0, 106, 80);
 border-radius: 8px;
-color: rgb(255, 255, 255);}
+color: rgb(255, 255, 255);
+border: none;}
 .first-3{
     flex-direction: column;
     
 }
-#first{display: flex;}
-.inn{background-color: white;}
+.first{display: flex;
+margin: 80px 100px 80px 100px;}
+.inn{background-color: white;
+}
+.future{margin: 120px;
+}
+.inn{
+    margin: 120px;
+    padding: 24px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+width: 302px;
+height: 244px;
+gap: 12px;}
+.inner{display: flex; 
+}
+.vision{margin: 120px;
+ padding: 20px;}
+.viision{display: flex;
+justify-content: space-evenly;
+gap: 0px;}
+
