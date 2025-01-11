@@ -6,8 +6,15 @@
   nav{
     display: flex;
     justify-content: space-between;
-    padding: 20px 120px;
+    padding: 20px 120px 0px 120px;
     margin: 0%;
+    justify-content:first baseline;}
+   nav button {border:7px solid rgb(0, 106, 80);
+  }
+  nav button:hover{
+    cursor: pointer;
+    background-color: aqua;
+    color: black;
   }
   
   #normal-btn{
@@ -21,41 +28,31 @@ color: rgb(0, 106, 80);
     color: rgba(14, 14, 14, 0.5);
  } 
 
- .first{
-    border-radius: 24px;
-    background: rgb(198, 228, 214);
-    display: flex;
-    margin: 80px auto
     
-   }
+   
  .btn{background-color: rgb(0, 106, 80);
 border-radius: 8px;
 color: rgb(255, 255, 255);
 border: none;
 padding: 17px 34px;
 cursor: pointer;}
-.first-3{
-    flex-direction: column;
-    
-}
-
-.inn{background-color: white;
-}
-.future{margin: 120px;
+.first-3{flex-direction: column;}
+.future{margin:  30px 120px;
 }
 .inn{
-    margin: 120px;
-    padding: 24px;
+    
+    padding: 24px;background-color: white;
     border: 1px solid rgba(14, 14, 14, 0.15);
 border-radius: 16px;
 width: 302px;
 height: 244px;
 gap: 12px;}
 .inner{display: flex;
-    
+    gap: 20px;
 }
-.vision{margin: 120px;
- padding: 20px;border-radius: 16px; }
+.vision{margin: 40px 120px;
+ padding: 20px;border-radius: 16px;
+ }
 .viision{display: flex;
 justify-content: space-evenly;
 gap: 0px;}
@@ -72,5 +69,65 @@ margin: 20px;}
 .btn:hover{color: blue;
 background-color:lightgreen ;
 }
-.imp{flex-direction: column;}
-.nimp{flex-direction: column;}
+.imp{flex-direction: column;
+padding: 20px;
+border-radius: 200px;}
+.nimp{flex-direction: column;
+padding: 20px;
+border-radius: 24px;
+}
+.ayoo{
+    background-color: rgb(198, 228, 214);
+    margin:32px 120px ;
+    border-radius: 20px;
+    display: flex;
+}
+.ayo{
+      flex-direction: column;
+      padding: 80px;
+}
+.imp{margin:auto;}
+.vheja{flex-direction: column;
+margin-top: auto;}
+.newsletter{
+    border: none;
+    padding: 30px 400px;
+    border-top-left-radius: 24px;
+    border-bottom-left-radius: 24px;
+}
+.ki{display: flex;
+justify-content: center;}
+.new{background-color: rgb(198, 228, 214);
+padding:80px 100px;
+border-radius: 24px;
+}
+footer{margin: 0%;
+background-color: aqua;
+padding: 0cap;
+text-align: center;
+margin-top: 80px;}
+.finale{display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 24px;
+}
+.quote{
+    background-image: url(B11A1--assignment-1/assets/quote-bg.png)
+    ;margin: 0px 120px;
+    background-color: white;
+    background-repeat: no-repeat;
+    padding: 30px;
+    border-radius: 24px;
+    justify-content: flex-start;
+}
+.nigga{
+    
+}
+.fiance{
+  
+   display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    
+    
+}
